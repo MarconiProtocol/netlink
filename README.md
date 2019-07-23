@@ -1,6 +1,7 @@
 # netlink - netlink library for go #
 
-[![Build Status](https://travis-ci.org/vishvananda/netlink.png?branch=master)](https://travis-ci.org/vishvananda/netlink) [![GoDoc](https://godoc.org/github.com/vishvananda/netlink?status.svg)](https://godoc.org/github.com/vishvananda/netlink)
+<!--[![Build Status](https://travis-ci.org/vishvananda/netlink.png?branch=master)](https://travis-ci.org/vishvananda/netlink)--->
+[![GoDoc](https://godoc.org/github.com/MarconiProtocol/netlink?status.svg)](https://godoc.org/github.com/MarconiProtocol/netlink)
 
 The netlink package provides a simple netlink library for go. Netlink
 is the interface a user-space program in linux uses to communicate with
@@ -20,7 +21,7 @@ functionality like ipsec xfrm handling.
 
 You can use go get command:
 
-    go get github.com/vishvananda/netlink
+    go get github.com/MarconiProtocol/netlink
 
 Testing dependencies:
 
@@ -28,7 +29,7 @@ Testing dependencies:
 
 Testing (requires root):
 
-    sudo -E go test github.com/vishvananda/netlink
+    sudo -E go test github.com/MarconiProtocol/netlink
 
 ## Examples ##
 
@@ -39,7 +40,7 @@ package main
 
 import (
     "fmt"
-    "github.com/vishvananda/netlink"
+    "github.com/MarconiProtocol/netlink"
 )
 
 func main() {
@@ -66,7 +67,7 @@ Add a new ip address to loopback:
 package main
 
 import (
-    "github.com/vishvananda/netlink"
+    "github.com/MarconiProtocol/netlink"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/vishvananda/netlink/nl"
+	"github.com/MarconiProtocol/netlink/nl"
 	"github.com/vishvananda/netns"
 	"golang.org/x/sys/unix"
 )
